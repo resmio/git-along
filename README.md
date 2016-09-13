@@ -1,5 +1,5 @@
 # git-along
-Rules and advice to work together well and 'get along' 😉😉
+Rules and advice to work together well and 'get along' (a little better everyday) 😉😉
 
 ## Pull Requests ##
 You can create a pull request as a way to ask for someone to have a look and review your code even if the branch is not ready for merging. This way the person you ask for help can pull your branch and experiment with it in their own environment, apart from having more time to work on the issue, and be able to see the changes you made to the code isolated.
