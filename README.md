@@ -62,7 +62,7 @@ Color: whitesmoke (#F5F5F5)
 
 **Special Labels**  
 color: forestGreen (#228B22)  
-- `ready for merge` : Title says it all.  
+- `ready for merge`: Title says it all.  
 - `merged`: Merged into master.  
 - `deployed`: Deployed into production.  
 
