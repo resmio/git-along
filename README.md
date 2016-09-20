@@ -14,4 +14,21 @@ In this case you should follow these guidelines:
 - When the main feature branch is ready, the pull request is created from that branch to master.
 
 ## Labels ##
+###Subject  labels###
+Subject labels are the ones related to which part of the application is affected by the issue. Expect to get more labels added to this one as the app grows. Color is SteelBlue (#4682B4)
+
+**Labels**  
+- `admin`  
+- `analytics`  
+- `api`  
+- `bookings`  
+- `emails`  
+- `feedback`  
+- `guests`  
+- `ipad`  
+- `newsletters`  
+- `tickets`  
+- `settings`  
+- `widget`  
+
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
