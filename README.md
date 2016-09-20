@@ -14,4 +14,28 @@ In this case you should follow these guidelines:
 - When the main feature branch is ready, the pull request is created from that branch to master.
 
 ## Labels ##
+We have 6 label categories based on what we use them for:
+- Subject:
+- Type:
+- Workflow:
+- Domain
+
+### Size labels###
+Size labels specify the estimated amount of time an issue is going to take to complete. Color is #FF7F50 (Coral)  
+
+**Labels**  
+- `x-small`:  You only need one cup of coffee to finish it  
+- `small`:  < ☕️☕️☕️  (3)  
+- `medium`: < ☕️☕️☕️☕️☕️  (5)  
+- `large`: < ☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️  (10)  
+
+Issues taking longer than 10 coffees should be voted as projects and splat into smaller, more actionable issues.
+
+### Priority labels###
+Priority labels can be assigned by product managers as long as they don't abuse them 😉 . Color is #FF1493 (Deep Pink)  
+
+**Labels**  
+- `P1`: Critical, drop whatever you are working on and work on this.  
+- `P2`: Must. Must be finished this milestone.  
+
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
