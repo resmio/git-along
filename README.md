@@ -14,4 +14,42 @@ In this case you should follow these guidelines:
 - When the main feature branch is ready, the pull request is created from that branch to master.
 
 ## Labels ##
+
+### Workflow labels###
+Workflow labels define the position of an issue or PR in out process:
+
+**Needs action labels**  
+Color: gold (#FFD700)  
+- `split into tasks`: Issue voted as a Project.  
+- `discussion needed`: Needs agreement on how to solve it.  
+- `review backend`  
+- `review frontend`  
+- `review product`  
+
+**Approved labels**  
+Color: paleGreen (#98FB98)  
+- `backend approved`  
+- `frontend approved`  
+- `product approved`  
+
+**Rejected labels**  
+Color: firebrick (#B22222)  
+- `backend rejected`  
+- `frontend rejected`  
+- `product rejected`  
+- `blocked`: Depends on something else before it can be acted on.  
+- `needs gif`: On interface changes the PR should include a gif with the new behavior.  
+
+**Situation labels**  
+Color: whitesmoke (#F5F5F5)  
+- `on test`: It's on the test server.  
+- `in progress`: Someone is working on it.  
+- `sprint ready`: Ready to estimate.  
+
+**Special Labels**  
+color: forestGreen (#228B22)  
+- `ready for merge` : Title says it all.  
+- `merged`: Merged into master.  
+- `deployed`: Deployed into production.  
+
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
