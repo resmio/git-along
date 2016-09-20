@@ -14,4 +14,15 @@ In this case you should follow these guidelines:
 - When the main feature branch is ready, the pull request is created from that branch to master.
 
 ## Labels ##
+
+### Domain labels###
+Domain labels specify what domain an issue belongs to. Assigning a domain label makes sure issues get the attention of the appropriate people. Color is #66CDAA (Medium Aquamarine)
+
+**Labels**  
+- `Backend`: Covers everything that doesn't fall under the responsibility of one of the others teams.  
+- `Documentation`: Covers everything related to writing documentations.  
+- `Frontend`: Covers everything related to the way resmio behaves (and looks) in the browser.  
+- `Operations`: Covers everything related to operational stuff (deploys, merges, renewing SSL certificates, upgrading CloudAMQP, ...)  
+- `UX`: Issues for the UX team. Covers new or existing functionality that needs a design proposal.  
+
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
