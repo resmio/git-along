@@ -15,6 +15,20 @@ In this case you should follow these guidelines:
 
 ## Labels ##
 
+### Type labels###
+Type labels are the ones that help to define what kind of issue we are dealing with. Color is SkyBlue (#87CEEB)  
+**Labels**  
+- `discussion`: Issues that are not actionable, just a place to discuss.  
+- `enhancement`: improving an existing feature.  
+- `exploration`: Researching a solution
+- `feature`: new features.  
+- `refactor`:  Issues about paying technical debt.  
+
+Also included in this category are the bugs and crash labels. Color here is red (#FF0000) to make them more visible.  
+- `bug`  
+- `crash`  
+
+
 ### Workflow labels###
 Workflow labels define the position of an issue or PR in out process:
 
@@ -48,7 +62,7 @@ Color: whitesmoke (#F5F5F5)
 
 **Special Labels**  
 color: forestGreen (#228B22)  
-- `ready for merge` : Title says it all.  
+- `ready for merge`: Title says it all.  
 - `merged`: Merged into master.  
 - `deployed`: Deployed into production.  
 
