@@ -96,6 +96,20 @@ color: forestGreen (#228B22)
 
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
 
+##resmio flow##
+
+###Which issue should you work on?###
+1. If you have an opened Pull Request with required changes work on that first.
+2. Check if the are opened Pull Requests from your domain that need to be code reviewed and do that.
+3. If you are assigned to an issue start working on that one.
+4. If not check for issues labeled with your domain (eg: Backend) and `P1`.
+5. If there is none check for issues labeled with your domain and `P2`
+6. If there's none check for issues labeled with your domain with no priority but included in a Milestone. Pick the one from the oldest milestone.
+7. If there is nothing left, ask your team.
+
+**If an issue has more than one domain**
+If you need to start working on a issue labeled with more than one domain (eg: `Frontend` + `UX`) get someone (use asynchronous) from the other(s) domain(s) and form a team. Then have a little chat with the other members of the team as soon as possible to kickstart the work on the issue.
+
 ## Le Changelog ##
 - We add a changelog.md file to every repo.
 - Everytime someone makes a pull request (s)he writes summary of the changes under the **unreleased** header.
