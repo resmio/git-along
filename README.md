@@ -15,8 +15,19 @@ In this case you should follow these guidelines:
 
 ## Labels ##
 
+### Domain labels###
+Domain labels specify what domain an issue belongs to. Assigning a domain label makes sure issues get the attention of the appropriate people. Color is #66CDAA (Medium Aquamarine)
+
+**Labels**  
+- `Backend`: Covers everything that doesn't fall under the responsibility of one of the others teams.  
+- `Documentation`: Covers everything related to writing documentations.  
+- `Frontend`: Covers everything related to the way resmio behaves (and looks) in the browser.  
+- `Operations`: Covers everything related to operational stuff (deploys, merges, renewing SSL certificates, upgrading CloudAMQP, ...)  
+- `UX`: Issues for the UX team. Covers new or existing functionality that needs a design proposal.  
+
 ### Type labels###
 Type labels are the ones that help to define what kind of issue we are dealing with. Color is SkyBlue (#87CEEB)  
+
 **Labels**  
 - `discussion`: Issues that are not actionable, just a place to discuss.  
 - `enhancement`: improving an existing feature.  
