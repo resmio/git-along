@@ -25,4 +25,56 @@ Domain labels specify what domain an issue belongs to. Assigning a domain label 
 - `Operations`: Covers everything related to operational stuff (deploys, merges, renewing SSL certificates, upgrading CloudAMQP, ...)  
 - `UX`: Issues for the UX team. Covers new or existing functionality that needs a design proposal.  
 
+### Type labels###
+Type labels are the ones that help to define what kind of issue we are dealing with. Color is SkyBlue (#87CEEB)  
+
+**Labels**  
+- `discussion`: Issues that are not actionable, just a place to discuss.  
+- `enhancement`: improving an existing feature.  
+- `exploration`: Researching a solution
+- `feature`: new features.  
+- `refactor`:  Issues about paying technical debt.  
+
+Also included in this category are the bugs and crash labels. Color here is red (#FF0000) to make them more visible.  
+- `bug`  
+- `crash`  
+
+
+### Workflow labels###
+Workflow labels define the position of an issue or PR in out process:
+
+**Needs action labels**  
+Color: gold (#FFD700)  
+- `split into tasks`: Issue voted as a Project.  
+- `discussion needed`: Needs agreement on how to solve it.  
+- `review backend`  
+- `review frontend`  
+- `review product`  
+
+**Approved labels**  
+Color: paleGreen (#98FB98)  
+- `backend approved`  
+- `frontend approved`  
+- `product approved`  
+
+**Rejected labels**  
+Color: firebrick (#B22222)  
+- `backend rejected`  
+- `frontend rejected`  
+- `product rejected`  
+- `blocked`: Depends on something else before it can be acted on.  
+- `needs gif`: On interface changes the PR should include a gif with the new behavior.  
+
+**Situation labels**  
+Color: whitesmoke (#F5F5F5)  
+- `on test`: It's on the test server.  
+- `in progress`: Someone is working on it.  
+- `sprint ready`: Ready to estimate.  
+
+**Special Labels**  
+color: forestGreen (#228B22)  
+- `ready for merge`: Title says it all.  
+- `merged`: Merged into master.  
+- `deployed`: Deployed into production.  
+
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
