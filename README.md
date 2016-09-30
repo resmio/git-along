@@ -15,7 +15,7 @@ In this case you should follow these guidelines:
 
 ## Labels ##
 
-###Subject  labels###
+### Subject  labels ###
 Subject labels are the ones related to which part of the application is affected by the issue. Expect to get more labels added to this one as the app grows. Color is SteelBlue (#4682B4)
 
 **Labels**  
@@ -29,6 +29,7 @@ Subject labels are the ones related to which part of the application is affected
 - `ipad`  
 - `newsletters`  
 - `tickets`  
+- `salesforce`
 - `settings`  
 - `widget`  
 
