@@ -15,6 +15,24 @@ In this case you should follow these guidelines:
 
 ## Labels ##
 
+### Subject  labels ###
+Subject labels are the ones related to which part of the application is affected by the issue. Expect to get more labels added to this one as the app grows. Color is SteelBlue (#4682B4)
+
+**Labels**  
+- `admin`  
+- `analytics`  
+- `api`  
+- `bookings`  
+- `emails`  
+- `feedback`  
+- `guests`  
+- `ipad`  
+- `newsletters`  
+- `tickets`  
+- `salesforce`
+- `settings`  
+- `widget`  
+
 ### Domain labels###
 Domain labels specify what domain an issue belongs to. Assigning a domain label makes sure issues get the attention of the appropriate people. Color is #66CDAA (Medium Aquamarine)
 
@@ -38,7 +56,6 @@ Type labels are the ones that help to define what kind of issue we are dealing w
 Also included in this category are the bugs and crash labels. Color here is red (#FF0000) to make them more visible.  
 - `bug`  
 - `crash`  
-
 
 ### Workflow labels###
 Workflow labels define the position of an issue or PR in out process:
