@@ -44,3 +44,12 @@ When you think your code changes are ready to be merged to master (or a branch w
 
 ### Pull Requests advice
 - Try to keep them small, if you feel the pull request is going to be too big, create a `main branch` for it and make smaller pull requests to this branch. Once this main branch is ready to go into master, make the pull request from it to master and ask for a new review.
+
+### FAQ ###
+>How do I know who to assign?
+
+If you touched backend -> Some backend person  
+If you touched frontend -> Some frontend person  
+If your changes affect product behaviour -> Some UX person  
+
+They are not mutually exclusive.
