@@ -19,7 +19,7 @@ Try to give a context and describe what the issue is about. When in doubt, the m
 - Example:  
 `Since the recent migration form moment.js to zeit.js some customers have complained about availabilities being always an hour earlier than expected. @robertoresmio looked into it and discovered that this is due to zeit.js always taking the german time as the right one`
 
-**Situation**  
+**Context**  
 If applicable describe things like: Browser version, OS used and conditions on how to reproduce the issue.  
 - Example:  
 `This happened to facilities ‘La croqueta feliz’ and ‘baturro loco’ it turns out both are located in Spain and they are accusing the site through blackberry phones using netscape navigator 3`
@@ -33,4 +33,4 @@ Suggest what is the next action to take to solve the issue.
 If it’s a research one provide links to places with documentation or articles about solving similar issues.
 
 **Screenshots**  
-are great, animated gifs are better.  
+Are great, animated gifs are better. [Here's](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12) a free gif capture tool for OSX.
