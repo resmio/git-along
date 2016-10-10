@@ -15,7 +15,7 @@ Once the help is no longer needed you can close the Pull Request yourself, or re
 You might need to assign new people to approve the Pull Request.
 
 ### Pull Request
-When you think your code changes are ready to be merged to master (or a branch where you collaborate with someone) we call it pull request.
+When you think your code changes are ready to be merged to master (or a branch where you collaborate with someone) we call it pull request.  
 1. [Rebase](TODO link to rebase document) your branch and create a proper [commit message](TODO link to commit messages)
 
 2. Push to remote and open a pull request.
@@ -38,12 +38,20 @@ When you think your code changes are ready to be merged to master (or a branch w
 
 - Inform about choices and compromises you made in the code, the reviewer(s) are probably going to ask for them, so writing them upfront saves time.
 
+- Explain how to test the new behaviour, unless it's really obvious. Explain what was wrong before and how should it work now.
+
 - In help requests be explicit about the kind of feedback you want.
 
 - If the feature changes user facing behaviour (it happens in the browser) you need to create a gif showing the new feature, in some cases it's also good to include the old behaviour for reference. To create the captures you can use [giphy capture](https://giphy.com/apps/giphycapture)
 
 ### Pull Requests advice
 - Try to keep them small, if you feel the pull request is going to be too big, create a `main branch` for it and make smaller pull requests to this branch. Once this main branch is ready to go into master, make the pull request from it to master and ask for a new review.
+
+- If you want someone from product to review, please please please upload your changes to the test branch and add the `on test` label, if your changes are still uploading add a comment like 'on test in 40 min'.
+
+- When someone resets the test branch, remember to push your changes again or remove the `on test` label.  
+
+- Be responsible for your pull requests, they are like your little children that need your constant attention before they can live a life of their own. So keep an eye on them, and if you go on holidays or get sick make sure you assign someone to take care of them.   
 
 ### FAQ ###
 >How do I know who to assign?
