@@ -95,3 +95,13 @@ color: forestGreen (#228B22)
 - `deployed`: Deployed into production.  
 
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
+
+## Le Changelog ##
+- We add a changelog.md file to every repo.
+- Everytime someone makes a pull request (s)he writes summary of the changes under the **unreleased** header.
+- Once we are ready to deploy:
+  - Move the changes from **unreleased** to a new version number
+  - Git tag the release and push that to github
+  - Deploy
+
+That way a quick look at changelog.md whenever we switch branches will make clear what it's included. Here's an [example changelog](https://github.com/olivierlacan/keep-a-changelog/blob/master/CHANGELOG.md)
