@@ -123,8 +123,22 @@ Sprint again, sprint again...
 6. If there's none check for issues labeled with your domain with no priority but included in a Milestone. Pick the one from the oldest milestone.
 7. If there is nothing left, ask your team.
 
-**If an issue has more than one domain**
-If you need to start working on a issue labeled with more than one domain (eg: `Frontend` + `UX`) get someone (use asynchronous) from the other(s) domain(s) and form a team. Then have a little chat with the other members of the team as soon as possible to kickstart the work on the issue.
+**If an issue has more than one domain**  
+If you need to start working on a issue labeled with more than one domain (eg: `frontend` + `UX`) get someone (use asynchronous) from the other(s) domain(s) and form a team. Then have a little chat with the other members of the team as soon as possible to kickstart the work on the issue.
+
+**Tips on how to stay on top of your issues**  
+- Enable notifications by email from github when you are participating in an issue [here](https://github.com/settings/notifications)
+
+- Also enable notification emails for:  
+  - Comments on Issues and Pull Requests  
+  - Pull Request reviews
+  - Pull Request pushes  
+
+- Under custom routing select your resmio email (you need to verify it first [here](https://github.com/settings/emails)) to receive the notifications for resmio repos in your resmio email account (this helps keeping work/life separated, if you are that kind of person :P)  
+
+- In your gmail account create a label called `github` (or whatever you like), and a filter for all the messages coming from `notifications@github.com` to skip the inbox and be labeled `github`
+
+- Your `github` label under the resmio gmail account is your new todo list, be sure to check it frequently (I do it first thing in the morning, before lunch, and before leaving the office) and delete the emails once you have acted on them.
 
 ## Le Changelog ##
 - We add a changelog.md file to every repo.
