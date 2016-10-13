@@ -4,7 +4,7 @@ Rules and advice to work together well and 'get along' (a little better everyday
 ## Pull Requests ##
 You can create a pull request as a way to ask for someone to have a look and review your code even if the branch is not ready for merging. This way the person you ask for help can pull your branch and experiment with it in their own environment, apart from having more time to work on the issue, and be able to see the changes you made to the code isolated.
 
-You should assign a `Work in Progress` label to that pull request, so the assigned person knows that the pull request is meant to ask for help and not ready to be merged yet.
+You should assign a `help request` label to that pull request, so the assigned person knows that the pull request is meant to ask for help and not ready to be merged yet.
 
 ## Collaboration branches ##
 Sometimes you need to work on an feature in a team (e.g., one that involves a backend and a frontend part).  
@@ -96,9 +96,25 @@ color: forestGreen (#228B22)
 
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
 
-##resmio flow##
+## resmio flow ##  
+>
+```
+resmio flow, bugs arrive like butterflies
+Oh, we don't know, so we chase them away
+Someday yet, we'll begin our sprint again
+Sprint again, sprint again...
+```
+ Pearl Jam - resmio flow
 
-###Which issue should you work on?###
+## Team Timeline
+
+- **Thursday**: Review of issues still open / Estimation meeting
+- **Friday**: Sprint is compiled
+- **Monday**: Old Sprint ends / New Sprint starts ...
+
+## Personal Timeline
+
+### Which issue should you work on?
 1. If you have an opened Pull Request with required changes work on that first.
 2. Check if the are opened Pull Requests from your domain that need to be code reviewed and do that.
 3. If you are assigned to an issue start working on that one.
