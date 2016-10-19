@@ -115,8 +115,8 @@ Sprint again, sprint again...
 ## Personal Timeline
 
 ### Which issue should you work on?
-1. If you have an opened Pull Request with required changes work on that first.
-2. Check if the are opened Pull Requests from your domain that need to be code reviewed and do that.
+1. Check if you have assigned pull requests to code review and do that.
+2. If you have an open pull request with required changes work on that.
 3. If you are assigned to an issue start working on that one.
 4. If not check for issues labeled with your domain (eg: Backend) and `P1`.
 5. If there is none check for issues labeled with your domain and `P2`
