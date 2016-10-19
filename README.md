@@ -4,7 +4,7 @@ Rules and advice to work together well and 'get along' (a little better everyday
 ## Pull Requests ##
 You can create a pull request as a way to ask for someone to have a look and review your code even if the branch is not ready for merging. This way the person you ask for help can pull your branch and experiment with it in their own environment, apart from having more time to work on the issue, and be able to see the changes you made to the code isolated.
 
-You should assign a `Work in Progress` label to that pull request, so the assigned person knows that the pull request is meant to ask for help and not ready to be merged yet.
+You should assign a `help request` label to that pull request, so the assigned person knows that the pull request is meant to ask for help and not ready to be merged yet.
 
 ## Collaboration branches ##
 Sometimes you need to work on an feature in a team (e.g., one that involves a backend and a frontend part).  
@@ -95,6 +95,50 @@ color: forestGreen (#228B22)
 - `deployed`: Deployed into production.  
 
 `Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
+
+## resmio flow ##  
+>
+```
+resmio flow, bugs arrive like butterflies
+Oh, we don't know, so we chase them away
+Someday yet, we'll begin our sprint again
+Sprint again, sprint again...
+```
+ Pearl Jam - resmio flow
+
+## Team Timeline
+
+- **Thursday**: Review of issues still open / Estimation meeting
+- **Friday**: Sprint is compiled
+- **Monday**: Old Sprint ends / New Sprint starts ...
+
+## Personal Timeline
+
+### Which issue should you work on?
+1. Check if you have assigned pull requests to code review and do that.
+2. If you have an open pull request with required changes work on that.
+3. If you are assigned to an issue start working on that one.
+4. If not check for issues labeled with your domain (eg: Backend) and `P1`.
+5. If there is none check for issues labeled with your domain and `P2`
+6. If there's none check for issues labeled with your domain with no priority but included in a Milestone. Pick the one from the oldest milestone.
+7. If there is nothing left, ask your team.
+
+**If an issue has more than one domain**  
+If you need to start working on a issue labeled with more than one domain (eg: `frontend` + `UX`) get someone (use asynchronous) from the other(s) domain(s) and form a team. Then have a little chat with the other members of the team as soon as possible to kickstart the work on the issue.
+
+**Tips on how to stay on top of your issues**  
+- Enable notifications by email from github when you are participating in an issue [here](https://github.com/settings/notifications)
+
+- Also enable notification emails for:  
+  - Comments on Issues and Pull Requests  
+  - Pull Request reviews
+  - Pull Request pushes  
+
+- Under custom routing select your resmio email (you need to verify it first [here](https://github.com/settings/emails)) to receive the notifications for resmio repos in your resmio email account (this helps keeping work/life separated, if you are that kind of person :P)  
+
+- In your gmail account create a label called `github` (or whatever you like), and a filter for all the messages coming from `notifications@github.com` to skip the inbox and be labeled `github`
+
+- Your `github` label under the resmio gmail account is your new todo list, be sure to check it frequently (I do it first thing in the morning, before lunch, and before leaving the office) and delete the emails once you have acted on them.
 
 ## Le Changelog ##
 - We add a changelog.md file to every repo.
