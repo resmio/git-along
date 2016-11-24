@@ -64,6 +64,9 @@ Workflow labels define the position of an issue or PR in out process:
 Color: gold (#FFD700)  
 - `split into tasks`: Issue voted as a Project.  
 - `discussion needed`: Needs agreement on how to solve it.  
+- `requirements needed`: Specifications, information, screenshots, mockups or something similar missing.    
+(i.e.: There is still something (which is directly related to this issue) missing before a developer could completely resolve this issue.)  
+Can only be set on issues (as compared to `blocked`).
 - `review backend`  
 - `review frontend`  
 - `review product`  
@@ -88,17 +91,26 @@ Color: whitesmoke (#F5F5F5)
 - `in progress`: Someone is working on it.  
 - `sprint ready`: Ready to estimate.  
 
+**Close labels**  
+Color: white (#FFFFFF)  
+Close the issue when assigning one of these.  
+- `wont fix`: This will not be fixed for an arbitrary reason (e.g. a crash in a part of the App that will be removed soon).  
+Before closing, provide the reason as comment if possible.  
+- `duplicate`: Title says it all. Always keep the issue with the most information.  
+Before closing, add comment ```closed as duplicate of #<issue-that-is-kept>``` to remove the need of migrating the information to the kept issue.  
+
 **Special Labels**  
 color: forestGreen (#228B22)  
 - `ready for merge`: Title says it all.  
 - `merged`: Merged into master.  
 - `deployed`: Deployed into production.  
 
+#TODO?
 We have 6 label categories based on what we use them for:
 - Subject:
 - Type:
 - Workflow:
-- Domain
+- Domain:
 
 ### Size labels###
 Size labels specify the estimated amount of time an issue is going to take to complete. Color is #FF7F50 (Coral)  
