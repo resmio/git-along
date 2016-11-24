@@ -15,7 +15,7 @@ In this case you should follow these guidelines:
 
 ## Labels ##
 
-### Subject  labels ###
+### Subject labels ###
 Subject labels are the ones related to which part of the application is affected by the issue. Expect to get more labels added to this one as the app grows. Color is SteelBlue (#4682B4)
 
 **Labels**  
@@ -94,7 +94,29 @@ color: forestGreen (#228B22)
 - `merged`: Merged into master.  
 - `deployed`: Deployed into production.  
 
-`Work in Progress`: used for pull requests that are still not ready to be merged but are created because you need help or in-between review.
+We have 6 label categories based on what we use them for:
+- Subject:
+- Type:
+- Workflow:
+- Domain
+
+### Size labels###
+Size labels specify the estimated amount of time an issue is going to take to complete. Color is #FF7F50 (Coral)  
+
+**Labels**  
+- `x-small`:  You only need one cup of coffee to finish it  
+- `small`:  < ☕️☕️☕️  (3)  
+- `medium`: < ☕️☕️☕️☕️☕️  (5)  
+- `large`: < ☕️☕️☕️☕️☕️☕️☕️☕️☕️☕️  (10)  
+
+Issues taking longer than 10 coffees should be voted as projects and splat into smaller, more actionable issues.
+
+### Priority labels###
+Priority labels can be assigned by product managers as long as they don't abuse them 😉 . Color is #FF1493 (Deep Pink)  
+
+**Labels**  
+- `P1`: Critical, drop whatever you are working on and work on this.  
+- `P2`: Must. Must be finished this milestone.  
 
 ## resmio flow ##  
 >
