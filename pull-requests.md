@@ -20,7 +20,7 @@ When you think your code changes are ready to be merged to master (or a branch w
 
 2. Push to remote and open a pull request.
 
-3. Assign the required review labels according to the issue domain, also assign the person that you want to do the code review.
+3. Assign the required review labels according to the issue domain, and let everyone know it's ready for review.
 
 4. The person doing the code review will go through the code, after he/she is finished will unassign him/herself and either:
   - Approve the request and change the label accordingly
