@@ -42,6 +42,7 @@ Domain labels specify what domain an issue belongs to. Assigning a domain label 
 - `Frontend`: Covers everything related to the way resmio behaves (and looks) in the browser.  
 - `Operations`: Covers everything related to operational stuff (deploys, merges, renewing SSL certificates, upgrading CloudAMQP, ...)  
 - `UX`: Issues for the UX team. Covers new or existing functionality that needs a design proposal.  
+- `Design Studio`: Issues that require the UX team and the corresponding development team to meet for a 1-2 hour session to brainstorm and challenge ideas regarding the design for a feature. Typically, one or more `UX` issues will be generated from this.  
 
 ### Type labels###
 Type labels are the ones that help to define what kind of issue we are dealing with. Color is SkyBlue (#87CEEB)  
@@ -62,6 +63,7 @@ Workflow labels define the position of an issue or PR in out process:
 
 **Needs action labels**  
 Color: gold (#FFD700)  
+- `description needed`: This issue is not described well enough. Typically, it would be reassigned to the person who created it, so they can describe it better. This is an important step to make the issues the **_single source of truth_**.
 - `split into tasks`: Issue voted as a Project.  
 - `discussion needed`: Needs agreement on how to solve it.  
 - `requirements needed`: Specifications, information, screenshots, mockups or something similar missing.    
