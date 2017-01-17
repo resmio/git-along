@@ -33,6 +33,17 @@ When you think your code changes are ready to be merged to master (or a branch w
 
 - The person or team creating the pull request are responsible of testing the feature, before and __after__ it has been deployed.
 
+### Merging a Pull Request
+
+If you were assigned to a Pull Request that has a **ready to merge** tag:
+1. Do one last check of the content to see if there are any obvious mistakes.
+
+2. Merge the Pull Request
+
+3. Delete the branch
+
+4. Mark any linked Sentry errors as **resolved in the next release**
+
 ### Pull Request messages
 - If the pull request closes an issue include `closes #<issue number>` at the top of the pull request message.
 
