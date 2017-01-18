@@ -12,6 +12,7 @@ These are all the issues that nobody looked at yet. Check them out and do the fo
   * Check up on the issue the next time
 * It's an error we can't / won't fix (Caused by a browser plugin / virus / etc.)
   * Set it to ignore forever
+  * Add a comment why we're ignoring it
 
 
 Every few weeks, look at the ignored errors and look for anything that happens too often to stay ignored.
