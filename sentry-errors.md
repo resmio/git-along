@@ -9,6 +9,7 @@ These are all the issues that nobody looked at yet. Check them out and do the fo
   * Assign the sentry-error to yourself, so it is not in the "Needs Triage" view anymore
 * You're uncertain but want to monitor it further (too few occurences to be important, might be a browser plugin)
   * Assign the sentry-error to yourself, so it is not in the "Needs Triage" view anymore.
+  * Add a comment why you chose to wait (this also gives a point of reference when it was last looked at)
   * Check up on the issue the next time
 * It's an error we can't / won't fix (Caused by a browser plugin / virus / etc.)
   * Set it to ignore forever
